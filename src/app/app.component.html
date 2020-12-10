@@ -1,0 +1,33 @@
+
+<body>
+    <div>
+      <h2>BMI Calculator</h2>
+      <p class="text">Name</p>
+      <input type="text" id="name">
+      <p class="text">Weight</p>
+      <input type="text" id="weight">
+      <p class="text">Height(feet)</p>
+      <input type="text" id="height">
+      <p class="text">Age</p>
+      <input type="text" id="Age">
+      <p class="text">Gender</p>
+      <p>Please select your gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+      <p>Your Recent Activity</p>
+        <input type="radio" id="Inactive" name="Activity" value="Inactive">
+        <label for="male">Inactive</label><br>
+        <input type="radio" id="Moderately" name="Activity" value="Moderately">
+        <label for="female">Moderately Active</label><br>
+        <input type="radio" id="Active" name="Activity" value="Active">
+        <label for="other">Active</label>
+      <p id="result"></p>
+      <p id="result1"></p>
+      <button id="btn"   onclick="BMI()">Calculate</button>
+    </div>
+</body>
+  
